@@ -1,23 +1,3 @@
-/*XRAY version 0.91a
-
-Copyright (c) 2007 Western Civilisation pty. ltd.
-http://westciv.com/xray/
-We aim to open source XRAY once the initial code is stabilized
-please email any suggestions, errors, feedback and so  on to john allsopp
-john@westciv.com 
-
-Some portions (c) Apple Computer
-Some portions adapted from Quirksmode http://quirksmode.org and
-a tutorial aby Patrick Hunlock http://www.hunlock.com/
-bookmark loading code adapted from leftlogic http://leftlogic.com/lounge/articles/microformats_bookmarklet/
-The XRAYHUD style inspired by the Shiira Project's HMBlkAppKit http://shiira.jp/hmblkappkit/en.html
-Concept inspired by Left Logic's Microformats Bookmarklet http://leftlogic.com/lounge/articles/microformats_bookmarklet/
-itself from an original concept by Jon Hicks http://www.hicksdesign.co.uk/
-
-XRAY uses jQuery, at present for one small but crucial aspect allowing support for Safari 2, though hopefully we'll take advantage of their fine effects in upcoming releases
-
-*/
-
 /* 
 Copyright (C) 2007 Apple Computer, Inc.  All rights reserved.
 
