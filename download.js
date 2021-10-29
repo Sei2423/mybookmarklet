@@ -119,7 +119,6 @@ function StickyNodes() {
     function addDomNode(el) {
         if (el !== undefined && el !== null) {
             el.khIgnore = true;
-            el.style.border = BORDER_STYLE;
             domNodes.push(el);
         }
     }
