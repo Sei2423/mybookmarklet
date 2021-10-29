@@ -1,18 +1,8 @@
-/*
-Copyright Alex Leone, David Nufer, David Truong, 2011-03-11. kathack.com
-
-javascript:var i,s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);
-
-*/
-var BORDER_STYLE = "1px solid #bbb",
+var BORDER_STYLE = "0px solid #bbb",
     CSS_TRANSFORM = null,
     CSS_TRANSFORM_ORIGIN = null,
     POSSIBLE_TRANSFORM_PREFIXES = ['-webkit-', '-moz-', '-o-', '-ms-', ''],
     khFirst = false;
-
-/* When running twice on one page, update pick-uppable nodes instead of
- * creating more.
- */
 if (!window.khNodes) {
     khFirst = true;
     window.khNodes = new StickyNodes();
@@ -33,15 +23,6 @@ function getCssTransform() {
     throw "Your browser doesn't support CSS tranforms!";
 }
 getCssTransform();
-
-/**
- * Returns true if the circle intersects the element rectangle.
- * 0  |   1   |   2
- * ------------------
- * 3  |   4   |   5
- * ------------------
- * 6  |   7   |   9
- */
 function circleGridObjInt(cx, cy, cr, cr2, go) {
     var dx, dy;
     if (cx < go.left) {
