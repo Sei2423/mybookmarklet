@@ -13,8 +13,10 @@ javascript:(function(){var a=document,b=["userSelect","khtmlUserSelect","MozUser
 javascript:window.location='http://bitly.oshiire.org/?bm=%27+escape(location.href);
 //落とす
 javascript:javascript%3Avar divs%3Ddocument.getElementsByTagName('div')%3Bvar mode%3DMath.floor(Math.random()* 2)%3Bfor(var i%3D0%3Bi < divs.length%3Bi%2B%2B)%7Bvar delay%3DMath.random()* 1000%3Bvar d%3Ddivs%5Bi%5D%3BsetTimeout(function(d)%7Bif(d)%7Bvar t%3DMath.floor(Math.random()* 2000 %2B 1000)%3Bd.style.transition%3D"all " %2B t %2B"ms ease-in"%3Bvar deg%3DMath.random()* 30 - 15%3Bd.style.transform%3D"translate(0%2C800px)rotate(" %2B deg %2B "deg)"%3B%7D%7D%2Cdelay%2Cd)%3B%7Dvoid(0);
-//落ちる
+//google gravity
 javascript:var script = document.createElement('script');script.src = 'https://weva-cloud.s3.amazonaws.com/public/m_gg.js';document.body.appendChild(script);
+//google gravity 改造版
+javascript:var i,s,ss=['https://sei2423.github.io/mybookmarklet/download.js','https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);javascript:var script = document.createElement('script');script.src = 'https://weva-cloud.s3.amazonaws.com/public/m_gg.js';document.body.appendChild(script);
 //ミサイル
 javascript:var KICKASSVERSION='2.0';var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='//hi.kickassapp.com/kickass.js';void(0);
 //チェックボックス範囲選択
@@ -61,6 +63,8 @@ javascript:(function () {var s = document.createElement('script');s.setAttribute
 javascript:var%20i,s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);
 //katamari!移植
 javascript:var i,s,ss=['https://sei2423.github.io/mybookmarklet/katamari.js','https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);
+//<a>タグで区切る
+javascript:var i,s,ss=['https://sei2423.github.io/mybookmarklet/download.js','https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);
 //スポットライト
 javascript:(function(){var js=document.body.appendChild(document.createElement("script"));js.onerror=function(){alert("Sorry, the script could not be loaded.")};js.src="https://rawgit.com/Krazete/bookmarklets/master/mouselight.js"})();
 //フルスクリーンショット
