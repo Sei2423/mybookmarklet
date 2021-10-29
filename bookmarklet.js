@@ -1,5 +1,4 @@
 //他人様のものの中で使っているもの
-
 //タブ複製
 javascript: void(window.open(document.location));
 //疑似編集
@@ -184,4 +183,3 @@ javascript:(function(){var canvas=document.getElementById("canvas");function rol
 javascript:(function(){var canvas=document.getElementById("canvas");function roll(){var tr=canvas.style.transform;if(tr==""){tr="rotate(0deg)";}tr=tr.split('(');tr=tr[1].split('d');tr=tr[0];if(tr>720){tr-=720}tr=tr*1+60;canvas.style.transform="rotate("+tr+"deg)";}function rolling(){setInterval(roll,1,canvas);}rolling();rolling();rolling();rolling();rolling();rolling();rolling();})()
 //8方向に映す
 javascript:(function(){var canvas=document.getElementById("canvas");function roll(){var tr=canvas.style.transform;if(tr==""){tr="rotate(0deg)";}tr=tr.split('(');tr=tr[1].split('d');tr=tr[0];if(tr>720){tr-=720}tr=tr*1+45;canvas.style.transform="rotate("+tr+"deg)";}function rolling(){setInterval(roll,1,canvas);}rolling();rolling();rolling();rolling();rolling();rolling();rolling();rolling();rolling();})()
-//
